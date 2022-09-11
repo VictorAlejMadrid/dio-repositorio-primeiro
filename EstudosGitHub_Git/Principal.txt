@@ -1,0 +1,16 @@
+Antes de criar um repositório é necessário entender o funcionamento do processo de atualização.
+Por isso  temos 4 tipos de situações em que seus arquivos no repositório podem estar:
+1 - Não rastreado (not tracked)
+Seu arquivo não está sendo reconhecido como parte de um repositório.
+Para fazer ele ser rastreado deve-se usar o comando 'git add *', para adicionar todos os arquivos não rastreados.
+2 - Não modificado (unmodified)
+Seu arquivo está sendo reconhecido como repositório, porém ele não possui nenhuma mudança desde a sua última atualização.
+Para mudar está situação basta alterar qualquer coisa em seu arquivo ou usar o comando 'git commit -m "mensagem"' para ele ir para a situação 'Staged'.
+3 - Modificado (modified)
+Seu arquivo está sendo reconhecido como parte do repositório, porém ele está modificado e precisa ser adicionado novamente.
+Para isso basta utilizar o comando 'git add *'.
+4 - Staged
+Seu arquivo é parte de um repositório e está pronto para ser enviado ao GitHub.
+Para isso basta botar o comando 'git push "nome que deseja" "branch que deseja atualizar"'
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+Pronto! Você atualizou seu repositório!
